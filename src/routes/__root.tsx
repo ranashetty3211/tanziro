@@ -81,10 +81,14 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "description", content: "A cinematic tribute to Tanjiro Kamado — water-breathing, sun-breathing, and the quiet courage of a demon slayer." },
       { name: "author", content: "Demon Slayer Archives" },
       { property: "og:title", content: "Tanjiro Kamado — Bearer of the Hinokami Flame" },
-      { property: "og:description", content: "A cinematic tribute to Tanjiro Kamado." },
+      { property: "og:description", content: "A cinematic tribute to Tanjiro Kamado — water-breathing, sun-breathing, and the quiet courage of a demon slayer." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Tanjiro Kamado — Bearer of the Hinokami Flame" },
+      { name: "twitter:description", content: "A cinematic tribute to Tanjiro Kamado — water-breathing, sun-breathing, and the quiet courage of a demon slayer." },
+      { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/a0a2b16f-d606-4cc3-975b-13cefbf0b04a" },
+      { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/a0a2b16f-d606-4cc3-975b-13cefbf0b04a" },
     ],
     links: [
       {
