@@ -1,5 +1,4 @@
 import { Reveal, RevealText } from "../Reveal";
-import katana from "@/assets/katana.png";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { useRef } from "react";
 
@@ -18,14 +17,6 @@ export function About() {
       ref={ref}
       className="relative overflow-hidden py-32 sm:py-44"
     >
-      {/* Katana watermark */}
-      <motion.img
-        src={katana}
-        alt=""
-        aria-hidden
-        style={{ y, rotate }}
-        className="pointer-events-none absolute -right-32 top-1/2 z-0 w-[min(140vw,1400px)] -translate-y-1/2 select-none opacity-[0.07] mix-blend-screen sm:opacity-[0.09]"
-      />
       <div
         aria-hidden
         className="pointer-events-none absolute inset-0 z-0"
