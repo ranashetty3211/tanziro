@@ -3,6 +3,7 @@ import katana from "@/assets/katana.png";
 
 const links = [
   { href: "#story", label: "Story", jp: "物語" },
+  { href: "#about", label: "About", jp: "私達" },
   { href: "#breathing", label: "Breathing", jp: "呼吸" },
   { href: "#gallery", label: "Gallery", jp: "画廊" },
   { href: "#quotes", label: "Quotes", jp: "言葉" },
@@ -16,16 +17,16 @@ export function Navbar() {
 
   return (
     <>
-      {/* Decorative katana floating header */}
-      <div className="pointer-events-none absolute inset-x-0 top-0 z-40 flex justify-center pt-10">
+      {/* Decorative katana — top right corner */}
+      <div className="pointer-events-none absolute right-0 top-0 z-40 flex justify-end pr-2 pt-6 sm:pr-6 sm:pt-10">
         <motion.img
           src={katana}
           alt=""
           aria-hidden
-          initial={{ opacity: 0, y: -40, rotate: -2 }}
-          animate={{ opacity: 1, y: 0, rotate: 0 }}
+          initial={{ opacity: 0, x: 80, rotate: -10 }}
+          animate={{ opacity: 1, x: 0, rotate: -28 }}
           transition={{ duration: 1.6, ease: [0.2, 0.7, 0.2, 1] }}
-          className="float-y w-[min(92vw,1100px)] drop-shadow-[0_20px_40px_rgba(0,0,0,0.6)]"
+          className="float-y w-[min(70vw,520px)] origin-top-right drop-shadow-[0_20px_40px_rgba(0,0,0,0.6)]"
         />
       </div>
 

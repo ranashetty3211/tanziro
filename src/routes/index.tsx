@@ -3,6 +3,7 @@ import { CustomCursor } from "@/components/CustomCursor";
 import { Navbar } from "@/components/Navbar";
 import { Hero } from "@/components/sections/Hero";
 import { Story } from "@/components/sections/Story";
+import { About } from "@/components/sections/About";
 import { Breathing } from "@/components/sections/Breathing";
 import { Gallery } from "@/components/sections/Gallery";
 import { Quotes } from "@/components/sections/Quotes";
@@ -30,6 +31,7 @@ function Index() {
       <Navbar />
       <Hero />
       <Story />
+      <About />
       <Breathing />
       <Gallery />
       <Quotes />
