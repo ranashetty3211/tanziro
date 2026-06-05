@@ -4,10 +4,6 @@ import { useRef } from "react";
 
 export function About() {
   const ref = useRef<HTMLElement>(null);
-  const { scrollYProgress } = useScroll({
-    target: ref,
-    offset: ["start end", "end start"],
-  });
 
   return (
     <section
