@@ -1,5 +1,4 @@
 import { Reveal, RevealText } from "../Reveal";
-import { useScroll } from "framer-motion";
 import { useRef } from "react";
 
 export function About() {
