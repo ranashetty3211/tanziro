@@ -3,6 +3,7 @@ import katana from "@/assets/katana.png";
 
 const links = [
   { href: "#story", label: "Story", jp: "物語" },
+  { href: "#about", label: "About", jp: "私達" },
   { href: "#breathing", label: "Breathing", jp: "呼吸" },
   { href: "#gallery", label: "Gallery", jp: "画廊" },
   { href: "#quotes", label: "Quotes", jp: "言葉" },
