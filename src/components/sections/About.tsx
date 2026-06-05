@@ -1,5 +1,5 @@
 import { Reveal, RevealText } from "../Reveal";
-import { motion, useScroll, useTransform } from "framer-motion";
+import { useScroll } from "framer-motion";
 import { useRef } from "react";
 
 export function About() {
