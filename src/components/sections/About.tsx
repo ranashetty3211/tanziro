@@ -8,8 +8,6 @@ export function About() {
     target: ref,
     offset: ["start end", "end start"],
   });
-  const y = useTransform(scrollYProgress, [0, 1], ["-10%", "10%"]);
-  const rotate = useTransform(scrollYProgress, [0, 1], [-18, -6]);
 
   return (
     <section
